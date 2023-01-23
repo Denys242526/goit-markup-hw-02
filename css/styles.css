@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    color: #434455;
+}
+
+.list {
+    list-style: none;
+}
+
+.page-header {
+    background-color: #FFFFFF;
+}
+
+.logo {
+    color: #2E2F42;
+}
+
+.site-nav .link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #404BBF;
+}
+
+.mailing-address {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+.mailing-address:hover,
+.mailing-address:focus {
+    color: #404BBF;
+}
+
+.phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+
+.phone-number:hover,
+.phone-number:focus {
+    color: #404BBF;
+}
+
+.section-hero {
+    background-color: #2E2F42;
+}
+
+.hero {
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.main-section {
+    background-color: #FFFFFF;
+}
+
+
+.button-active {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.button-active:hover,
+.button-active:focus {
+    background-color: #404BBF;
+}
+
+.button {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.our-advantages {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+}
+
+.section-specialization {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+.section-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.logo-web {
+    color: #4D5AE5;
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #E7E9FC;
+}
