@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
 }
 
@@ -12,72 +12,84 @@ body {
 }
 
 .logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #2E2F42;
 }
 
-.site-nav .link {
+.link {
+    text-decoration: none;
+}
+
+.nav-link {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404BBF;
+    ;
 }
 
-.mailing-address {
+
+.contacts-link {
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     color: #434455;
 }
 
-.mailing-address:hover,
-.mailing-address:focus {
-    color: #404BBF;
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #4D5AE5;
 }
-
-.phone-number {
-    font-weight: 400;
-    font-size: 16px;
-    color: #434455;
-}
-
-
-.phone-number:hover,
-.phone-number:focus {
-    color: #404BBF;
-}
-
-.section-hero {
-    background-color: #2E2F42;
-}
-
-.hero {
-    font-weight: 700;
-    font-size: 56px;
-    color: #FFFFFF;
-}
-
-.main-section {
-    background-color: #FFFFFF;
-}
-
 
 .button-active {
+    border: none;
+}
+
+.button-active {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    ;
+
 }
+
 
 .button-active:hover,
 .button-active:focus {
     background-color: #404BBF;
+    ;
 }
 
 .button {
+    border: none;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     color: #4D5AE5;
     background-color: #F4F4FD;
-
+    ;
 }
 
 .button:hover,
@@ -86,21 +98,50 @@ body {
     background-color: #404BBF;
 }
 
+.section-hero {
+    background-color: #2E2F42;
+}
+
+.title-hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 0.7;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-section {
+    background-color: #FFFFFF;
+}
+
 .our-advantages {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
 .section-specialization {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
 .our-team {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
 
 }
@@ -127,11 +168,28 @@ body {
 }
 
 .logo-web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
 }
 
 .footer-paragraph {
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     color: #E7E9FC;
 }
